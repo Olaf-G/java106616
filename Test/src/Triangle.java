@@ -17,22 +17,11 @@ public class Triangle {
 	}
 
 	public boolean ifTriangle() {
-		if(this.first_side+this.secound_side>=this.third_side) {
+		if((this.first_side+this.secound_side>=this.third_side)&&(this.first_side+this.third_side>=this.secound_side)&&(this.third_side+this.secound_side>=this.first_side)) {
 		return true;
 }
 		else {
-			if(this.first_side+this.third_side>=this.secound_side) {
-				return true;
-			}
-			else
-			{
-				if(this.third_side+this.secound_side>=this.first_side) {
-					return true;
-				}
-				else {
-					return false;
-				}
-			}
+			return false;
 		}
 }
 	public double TriangleSquare() {
