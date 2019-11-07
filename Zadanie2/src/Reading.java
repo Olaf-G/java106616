@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Reading {
 	void IntoArray(String[] data) throws Exception {
-	File file = new File("C:\\Users\\Olaf\\Desktop\\Pytania.txt");
+	File file = new File(".sr\\Pytania.txt");
 	BufferedReader abc = new BufferedReader(new FileReader(file));
 	List<String> lines = new ArrayList<String>();
 	String line;
@@ -27,7 +27,7 @@ public class Reading {
 	
 	public static void main(String[] args) throws Exception
 	{
-		String[] pytania;
+		String[] pytania = new String[30];
 		Reading nowy = new Reading();
 		Scanner sc = new Scanner(System.in);
 		nowy.IntoArray(pytania);
