@@ -1,0 +1,6 @@
+Odpowiedz:
+G³ówna ró¿nica polega na tym, ¿e klasy abstrakcyjne nie mog¹ mieæ implementacji, za to mog¹ mieæ metody, które s¹ domyœlnym zachowaniem.
+Zmienne deklarowane w interfejsie s¹ domyœlnie ustawione na final, a klasa abstrakcyjna mo¿e zawieraæ zmienne non-final.
+Interface jest z domys³u publiczny, a klasy abstrakcyjne mog¹ mieæ ustawienia klas np. private albo protected.
+Interface implementujemy s³owem 'implements', a klasê abstrakcyjn¹ 'extends'.
+Interface mo¿e rozszerzaæ tylko inny interface, a klasa mo¿e rozszerzaæ inn¹ klasê oraz implementowaæ wiele interface.
